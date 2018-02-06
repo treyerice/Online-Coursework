@@ -1,0 +1,54 @@
+body {
+  background-color: #fff;
+  margin-top: 40px;
+  font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+}
+
+.page-title {
+  font-size: 70px;
+  color: #313334;
+  text-transform: uppercase;
+  font-family: 'Pontano Sans', sans-serif;
+  font-weight: bold;
+  padding-bottom: 70px;
+}
+
+.text-image-row {
+  background-color: #F1F1F1;
+}
+
+.text-content h3 {
+  font-family: 'Pontano Sans', sans-serif;
+  font-weight: bold !important;
+  font-size: 30px !important;
+  text-transform: uppercase;
+  padding: 20px 20px 10px 20px;
+}
+
+.text-content p {
+  font-size: 18px;
+  padding: 0px 20px 10px 20px;
+  line-height: 1.55em;
+}
+
+.image-content {
+  background-color: #F1F1F1;
+  padding: 0px;
+}
+
+a {
+  color: #424153;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer-container {
+  padding: 20px;
+}
+
+.footer-learn-more {
+  padding: 20px;
+}
