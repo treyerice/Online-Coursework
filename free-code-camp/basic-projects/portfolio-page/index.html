@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Build a Personal Portfolio Webpage</title>
+	<meta name="description" content="Free Code Camp Build a Personal Portfolio Webpage Basic Front End Development Projects">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- css -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+	<!--header-->
+	<header class="navbar navbar-inverse navbar-fixed-top" id="home">
+		<div class="container">
+			<!--nav bar-->
+			<nav role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="#about">Treye Rice</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#portfolio">Portfolio</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!--main-->
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!--jumbo tron introduction-->
+					<div class="jumbotron" id="about">
+						<img src="https://placehold.it/200x200" alt="Treye Rice" class="img-responsive img-circle pull-right">
+						<h2>
+							Hello, world!
+						</h2>
+						<p>
+							My name is Treye Rice and I provide freelance web design and hosting services. Since 2002, I have provided web design, advertising and content marketing services for over 100 small businesses located across the United States.
+						</p>
+						<p>
+							<a class="btn btn-primary btn-large" href="#">Learn more</a>
+						</p>
+					</div>
+					<!--portfolio-->
+
+
+					<div class="row" id="portfolio">
+						<div class="col-md-12">
+							<h3 class="text-center">
+								Portfolio
+							</h3>
+						</div>
+					</div>
+
+
+					<div class="row portfolio-row">
+						<div class="col-md-6 text-center">
+							<img alt="portfolio image" src="https://placehold.it/400x300" class="img-responsive portfolio-img">
+						</div>
+						<div class="col-md-6 text-center">
+							<img alt="portfolio image" src="https://placehold.it/400x300" class="img-responsive portfolio-img">
+						</div>
+					</div>
+
+					<div class="row portfolio-row">
+						<div class="col-md-6 text-center">
+							<img alt="portfolio image" src="https://placehold.it/400x300" class="img-responsive portfolio-img">
+						</div>
+						<div class="col-md-6 text-center">
+							<img alt="portfolio image" src="https://placehold.it/400x300" class="img-responsive portfolio-img">
+						</div>
+					</div>
+
+					<div class="row portfolio-row">
+						<div class="col-md-6 text-center">
+							<img alt="portfolio image" src="https://placehold.it/400x300" class="img-responsive portfolio-img">
+						</div>
+						<div class="col-md-6 text-center">
+							<img alt="portfolio image" src="https://placehold.it/400x300" class="img-responsive portfolio-img">
+						</div>
+					</div>
+
+
+					<!--contact-->
+
+					<div class="row" id="contact">
+						<div class="col-md-12">
+							<h3 class="text-center">
+								Contact Me
+							</h3>
+						</div>
+					</div>
+
+
+					<div class="row">
+
+						<!--contact greeting-->
+
+						<div class="col-md-6 contact-greeting">
+							<p>
+							Thanks for visiting my website! The quickest way to get in touch with me is to use the contact form shown on my page. I will respond to your inquiry as soon as possible.</p>
+							<p> You can connect with me on social media by clicking on one of the icons below.</p>
+
+							<ul class="list-inline">
+								<li><a href="https://twitter.com/treyerice"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/treyerice"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
+								<li><a href="https://instagram.com/treyerice"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+							</ul>
+
+						</div>
+
+						<!--contact form-->
+
+						<div class="col-md-6 contact-form-column">
+
+							<h4>Express Contact Form</h4>
+							<form role="form">
+								<div class="form-group">
+
+									<label for="name">
+										Full Name
+									</label>
+									<input class="form-control" id="name" type="text">
+								</div>
+								<div class="form-group">
+
+									<label for="exampleInputEmail1">
+										Email address
+									</label>
+									<input class="form-control" id="exampleInputEmail1" type="email">
+								</div>
+								<div class="form-group">
+
+									<label for="phone">
+										Phone Number
+									</label>
+									<input class="form-control" id="phone" type="text">
+								</div>
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea class="form-control" rows="5" id="message"></textarea>
+								</div>
+
+								<button type="submit" class="btn btn-default">
+									Send Form
+								</button>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3 class="text-center">
+						About this Page
+					</h3>
+					<p>
+						Made by <a href="http://treyerice.com/">Treye Rice</a> for <a href="https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage">FreeCodeCamp.com portfolio project</a> using <a href="https://getbootstrap.com">Twitter Bootstrap</a>,
+						<a href="https://placehold.it/">Placehold.it</a> images and <a href="http://fontawesome.io">Font Awesome</a> icons. </p>
+						<p>&copy; Treye Rice. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		<!-- jquery and scripts -->
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/4b6e8ccfa7.js"></script>
+		<script src="assets/js/portfolio.js"></script>
+	</body>
+	</html>
