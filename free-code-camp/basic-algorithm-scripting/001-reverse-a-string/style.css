@@ -1,0 +1,6 @@
+.starter-template{
+	padding-top: 30px;
+}
+#outputContainer, #errorContainer{
+	margin-bottom: 30px;
+}

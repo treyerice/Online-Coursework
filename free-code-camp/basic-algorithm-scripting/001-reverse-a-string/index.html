@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reverse a String project for Basic Algorithm Scripting project from Free Code Camp.">
+  <meta name="author" content="Treye Rice">
+
+  <title>Reverse a String - Basic Algorithm Scripting - Free Code Camp</title>
+
+  <!-- Bootstrap core CSS, Modified by Bootswatch: https://bootswatch.com/cerulean/ -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/cerulean/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Basic Algorithm Scripting</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="starter-template text-center">
+    <h1>Reverse a String</h1>
+    <p class="lead">Enter text into the form field below and click the Submit button.</p>
+  </div>
+
+  <div class="row">
+    <div class="col-10 mx-auto">
+
+      <!-- start project code here -->
+
+      <div class="alert alert-dismissible alert-success d-none" id="outputContainer">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <div id="result"></div>
+      </div>
+
+      <div class="alert alert-dismissible alert-danger d-none" id="errorContainer">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <div id="resultError"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <form action="#" id="myForm">
+            <div class="form-group">
+              <input type="text" class="form-control" id="textField" placeholder="Enter text here">
+            </div>
+            <button class="btn btn-lg btn-primary" id="submitButton">Submit</button>
+            <a href="javascript:window.location.reload(true);" class="btn btn-lg btn-default d-none" id="resetButton">Reset</a>
+          </form>
+        </div>
+      </div>
+
+      <!-- end project code here -->
+
+    </div>
+  </div>
+</div><!-- /.container -->
+<!-- jquery -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<!-- bootstrap jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- custom jquery -->
+<script src="scripts.js"></script>
+</body>
+</html>
