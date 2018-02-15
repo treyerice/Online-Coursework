@@ -2,20 +2,20 @@
 
 Instructions:
 
-Reverse the provided string.
+1. Reverse the provided string.
 
-You may need to turn the string into an array before you can reverse it.
+2. You may need to turn the string into an array before you can reverse it.
 
-Your result must be a string.
+3. Your result must be a string.
 
-Remember to use Read-Search-Ask if you get stuck. Write your own code.
+4. Remember to use Read-Search-Ask if you get stuck. Write your own code.
 
-Here are some helpful links:
+5. Here are some helpful links:
 
-..* Global String Object
+* Global String Object
 
-..* String.prototype.split()
+* String.prototype.split()
 
-..* Array.prototype.reverse()
+* Array.prototype.reverse()
 
-..* Array.prototype.join()
+* Array.prototype.join()
