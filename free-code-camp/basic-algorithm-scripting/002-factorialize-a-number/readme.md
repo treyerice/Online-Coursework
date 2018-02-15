@@ -8,7 +8,7 @@ Instructions:
 
 3. Factorials are often represented with the shorthand notation n!
 
-For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
+> For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 4. Remember to use Read-Search-Ask if you get stuck. Write your own code.
 
