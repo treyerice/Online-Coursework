@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Reverse a String project for Basic Algorithm Scripting project from Free Code Camp.">
+  <meta name="description" content="Return Largest Numbers in Arrays project for Basic Algorithm Scripting project from Free Code Camp.">
   <meta name="author" content="Treye Rice">
 
-  <title>Reverse a String - Basic Algorithm Scripting - Free Code Camp</title>
+  <title>Return Largest Numbers in Arrays - Basic Algorithm Scripting - Free Code Camp</title>
 
   <!-- Bootstrap core CSS, Modified by Bootswatch: https://bootswatch.com/cerulean/ -->
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/cerulean/bootstrap.min.css" rel="stylesheet">
@@ -36,8 +36,8 @@
 <div class="container">
 
   <div class="starter-template text-center">
-    <h1>Reverse a String</h1>
-    <p class="lead">Enter text into the form field below and click the Submit button.</p>
+    <h1>Return Largest Numbers in Arrays</h1>
+    <p class="lead">Enter an array of sub-arrays and click the Submit button.</p>
   </div>
 
   <div class="row">
@@ -59,11 +59,14 @@
         <div class="card-body">
           <form action="#" id="myForm">
             <div class="form-group">
-              <input type="text" class="form-control" id="textField" placeholder="Enter text here">
+              <input type="text" class="form-control" id="textField" placeholder="ex. [[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]">
             </div>
             <button class="btn btn-lg btn-primary" id="submitButton">Submit</button>
             <a href="javascript:window.location.reload(true);" class="btn btn-lg btn-default d-none" id="resetButton">Reset</a>
           </form>
+          <script>
+            document.getElementById("textField").defaultValue = "[[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]";
+          </script>
         </div>
       </div>
 
